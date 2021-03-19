@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class entradaDeDados {
+public class EntradaDeDados {
 
 	public static void main(String[] args) {
 		
@@ -10,19 +10,19 @@ public class entradaDeDados {
 		
 		//String x;
 		//x = sc.next();
-		//System.out.println("Você digitou: " + x);
+		//System.out.println("VocÃª digitou: " + x);
 		
 		//int x;
 		//x = sc.nextInt();
-		//System.out.println("Você digitou: " + x);
+		//System.out.println("VocÃª digitou: " + x);
 		
 		//double x;
 		//x = sc.nextDouble();
-		//System.out.println("Você digitou: " + x);
+		//System.out.println("VocÃª digitou: " + x);
 		
 		//char x;
 		//x = sc.next().charAt(0);
-		//System.out.println("Você digitou: " + x);
+		//System.out.println("VocÃª digitou: " + x);
 		
 		/*String x;
 		int y;
@@ -30,9 +30,9 @@ public class entradaDeDados {
 		x = sc.next();
 		y = sc.nextInt();
 		z = sc.nextDouble();
-		System.out.println("Você digitou: " + x);
-		System.out.println("Você digitou: " + y);
-		System.out.println("Você digitou: " + z);
+		System.out.println("VocÃª digitou: " + x);
+		System.out.println("VocÃª digitou: " + y);
+		System.out.println("VocÃª digitou: " + z);
 		*/
 		
 		
