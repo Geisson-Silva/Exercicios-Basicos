@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class exercicioAreaDoCirculo {
+public class ExercicioAreaDoCirculo {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
@@ -12,7 +12,7 @@ public class exercicioAreaDoCirculo {
 		double pi = 3.14159;
 		double area = pi * Math.pow(x, 2);
 		
-		System.out.printf("A área é: %.4f%n", area);
+		System.out.printf("A Ã¡rea Ã©: %.4f%n", area);
 		
 		sc.close();
 	}
