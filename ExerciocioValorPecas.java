@@ -1,29 +1,29 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class exerciocioValorPecas {
+public class ExerciocioValorPecas {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		//System.out.println("Digite o código da peça: ");
+		//System.out.println("Digite o cÃ³digo da peÃ§a: ");
 		//int codigo1 = sc.nextInt();
-		System.out.println("Digite a quantidade de peças: ");
+		System.out.println("Digite a quantidade de peÃ§as: ");
 		int qt = sc.nextInt();
-		System.out.println("Digite o valor da peça: ");
+		System.out.println("Digite o valor da peÃ§a: ");
 		double valor = sc.nextDouble();
 		
-		//System.out.println("Digite o código da segunda peça : ");
+		//System.out.println("Digite o cÃ³digo da segunda peÃ§a : ");
 		//int codigo2 = sc.nextInt();
-		System.out.println("Digite a quantidade de peças: ");
+		System.out.println("Digite a quantidade de peÃ§as: ");
 		int qt2 = sc.nextInt();
-		System.out.println("Digite o valor da segunda peça : ");
+		System.out.println("Digite o valor da segunda peÃ§a : ");
 		double valor2 = sc.nextDouble();
 		
 		double conta = qt*valor+qt2*valor2;
 		
-		System.out.printf("O valor a ser pago é %.2f%n: ", conta);
+		System.out.printf("O valor a ser pago Ã© %.2f%n: ", conta);
 		
 		
 		sc.close();
