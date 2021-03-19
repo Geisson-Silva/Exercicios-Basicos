@@ -1,14 +1,14 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class horasTrabalhadas {
+public class HorasTrabalhadas {
 
 	public static void main(String[] args) {
 
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 
-		System.out.println("digite o numero do funcion·rio:");
+		System.out.println("digite o numero do funcion√°rio:");
 		int numero = sc.nextInt();
 		System.out.println("digite as horas trabalhadas:");
 		double horas = sc.nextDouble();
@@ -17,7 +17,7 @@ public class horasTrabalhadas {
 		
 		double salario = horas * valor;
 		
-		System.out.printf("O funcion·rio %d receber·: ", numero);
+		System.out.printf("O funcion√°rio %d receber√°: ", numero);
 		System.out.println("R$ " + salario);
 
 		sc.close();
