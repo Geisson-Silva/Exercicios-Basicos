@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class calculoAreasVariadas {
+public class CalculoAreasVariadas {
 
 	public static void main(String[] args) {
 		
