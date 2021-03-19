@@ -1,7 +1,7 @@
 import java.util.Locale;
 import java.util.Scanner;
 
-public class exerciocioDiferenca {
+public class ExercicioDiferenca {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
@@ -17,7 +17,7 @@ public class exerciocioDiferenca {
 		int d= sc.nextInt();
 		int diferenca = a*b-c*d;
 		
-		System.out.println("A diferença é: " + diferenca);
+		System.out.println("A diferenÃ§a Ã©: " + diferenca);
 		
 		sc.close();
 
